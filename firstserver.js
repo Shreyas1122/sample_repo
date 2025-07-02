@@ -32,11 +32,11 @@ const store=new mongodbsession({
 
 //firebase notification code is here 
  
-var serviceAccount = require(path.join(__dirname, 'assets/','shreyas-project-70669-firebase-adminsdk-fbsvc-c3e5b57c7a.json'));
+//var serviceAccount = require(path.join(__dirname, 'assets/','shreyas-project-70669-firebase-adminsdk-fbsvc-c3e5b57c7a.json'));
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
-});
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount)
+// });
 
 
 
