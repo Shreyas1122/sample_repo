@@ -6,7 +6,6 @@ const cloudinary=require('cloudinary')
 const path = require("path");
 const {createClient} = require('@supabase/supabase-js');
 const fs = require('fs');
-const admin=require('firebase-admin');
 const bodyparser=require('body-parser');
 const node=require('node-cron')
 
@@ -62,8 +61,6 @@ const storageoptions={
 //intializing the firebase database 
 
 
-
-const database =admin.firestore();
 
 
 
